@@ -31,4 +31,12 @@ class FizzBuzzTest {
         assertEquals(expectResult, actualResult);
 
     }
+
+    @Test
+    void should_return_Buzz_if_is_a_multiple_of_5(){
+        int idx=10;
+        String expectResult = "Buzz";
+        String actualResult = FB.fizzBuzz(idx);
+        assertEquals(expectResult, actualResult);
+    }
 }

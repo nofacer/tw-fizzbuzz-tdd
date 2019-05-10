@@ -11,6 +11,9 @@ public class FizzBuzz {
         if(idx%3==0){
             result+="Fizz";
         }
+        else if(idx%5==0){
+            result+="Buzz";
+        }
         else{
             result+=idx;
         }
