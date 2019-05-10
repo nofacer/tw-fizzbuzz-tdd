@@ -54,4 +54,12 @@ class FizzBuzzTest {
         String actualResult = FB.fizzBuzz(idx);
         assertEquals(expectResult, actualResult);
     }
+
+    @Test
+    void should_return_FizzWhizz_if_is_a_multiple_of_3_and_7(){
+        int idx=21;
+        String expectResult = "FizzWhizz";
+        String actualResult = FB.fizzBuzz(idx);
+        assertEquals(expectResult, actualResult);
+    }
 }
